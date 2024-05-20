@@ -1,3 +1,6 @@
+# Masked-Gender-Classifier
+A model built with keras based on MobileNetV2 to extract facial features from masked images and classify their gender
+
 ## HOW TO USE THE MODEL
 - model.ipynb contains the code used in creation and training of the model.<br>
 - TrainedModel.ipynb is the interface notebook I have created to easily use the model.<br>
@@ -20,5 +23,5 @@ Intially the accuracy of the model was 55% which is pretty much negligible since
 The final model was made with 1200x2 training images (Max my 8gb laptop could handle) which gave **final accuracy of 87.29%**.
 ## SCREENSHOTS AND FLOWCHARTS
 
-![alt text](screenshots\image.png)
-![alt text](screenshots\flow.png)
+![alt text](screenshots/flow.png)
+![alt text](screenshots/image.png)
