@@ -3,10 +3,11 @@ A model built with keras based on MobileNetV2 to extract facial features from ma
 
 ## HOW TO USE THE MODEL
 - model.ipynb contains the code used in creation and training of the model.<br>
-- TrainedModel.ipynb is the interface notebook I have created to easily use the model.<br>
+- TrainedModel.ipynb is the interface notebook I have created to easily use the model. It contains pre-predicted examples for demonstration. <br>
 - **TO USE :** in the predict function in TrainedModel.ipynb, pass the name of the input image saved in samples folder.<br>It will display the image with TEXT: MALE/FEMALE etched on it.
-- There are 14 images already saved in the form of 1.jpg, 2.jpg, ... in the samples folder.
-- app.py contains the gradio frontend for the model, Use it with input image of your choice, or use the ones provided in samples folder.
+- There are 14 images already saved in the form of 1.jpg, 2.jpg, ... in the samples folder. These are simple images with people in blue surgical masks.
+- There are 6 images already saved in the form of 1.jpg, 2.jpg, ... in the different_samples folder. These are complex images with people in masks with diverse sizes and colours.
+- **app.py contains the gradio frontend for the model**, Use it with input image of your choice, or use the ones provided in samples folder.
 
 ## DATASET
 Found the dataset on kaggle -
