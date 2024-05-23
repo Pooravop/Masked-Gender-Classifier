@@ -23,6 +23,7 @@ The model is based on the pre-trained CNN MobileNetV2 without its last output la
 Intially the accuracy of the model was 55% which is pretty much negligible since its a 50-50 binary prediction.<br>To increase the accuracy, the data augmentation step (brightness zoom pinch span etc) was omitted because the dataset was compiled via webscraping google and had significant rotation and translational shear. This boosted the accuracy to 76% on training of 500 images per category.<br><br>
 The final model was made with 1200x2 training images (Max my 8gb laptop could handle) which gave **final accuracy of 83.29%**.
 ## SCREENSHOTS AND FLOWCHARTS
-
+Works for different coloured masks aswell <br>
+![alt text](screenshots/image2.png)
 ![alt text](screenshots/flow.png)
 ![alt text](screenshots/image.png)
